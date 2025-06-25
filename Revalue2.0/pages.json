@@ -1,0 +1,200 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "启动页"
+			}
+		},
+		{
+			"path" : "pages/Login/Login",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "登录"
+			}
+		},
+		{
+			"path" : "pages/Register/Register",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "注册"
+			}
+		},
+		{
+			"path" : "pages/Write/Write",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "发布"
+			}
+		},
+		{
+			"path" : "pages/Unused/Unused",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "闲置"
+			}
+		},
+		{
+			"path": "pages/Unused/detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "闲置详情页"
+			}
+		},
+		{
+			"path" : "pages/Buy/Buy",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "求购"
+			}
+		},
+		{
+			"path": "pages/Buy/detail",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "求购详情页"
+			}
+		},
+		{
+			"path" : "pages/Mine/Mine",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "我的"
+			}
+		},
+		{
+			"path" : "pages/Mine/myunused",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "我的闲置"
+			}
+		},
+		{
+			"path" : "pages/Mine/mybuy",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "我的求购"
+			}
+		},
+		{
+			"path" : "pages/Mine/mycollection",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "我的收藏"
+			}
+		},
+		{
+			"path" : "pages/Mine/payorder",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "购买订单"
+			}
+		},
+		{
+			"path" : "pages/Mine/saleorder",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "出售订单"
+			}
+		},
+		{
+			"path" : "pages/Mine/reset",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "修改密码"
+			}
+		},
+		{
+			"path" : "pages/Mine/verify",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "邮箱验证"
+			}
+		},
+		{
+			"path" : "pages/Mine/sms",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "手机号验证"
+			}
+		},
+		{
+			"path" : "pages/Mine/profile",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "个人信息"
+			}
+		},
+		{
+			"path" : "pages/Home/Home",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "首页"
+			}
+		},
+		{
+			"path" : "pages/Resetpassword/Resetpassword",
+			"style" : 
+			{
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText" : "修改密码页"
+			}
+		}
+	],
+	"globalStyle": {
+		"enablePullDownRefresh": true,
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园二手交易app-Revalue",
+		"navigationBarBackgroundColor": "#FF7670",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#FF7670",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/Home/Home",
+			"iconPath": "/static/home.png",
+			"selectedIconPath": "/static/selected-home.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/Unused/Unused",
+			"iconPath": "/static/unused.png",
+			"selectedIconPath": "/static/selected-unused.png",
+			"text": "闲置"
+		},{
+			"pagePath": "pages/Write/Write",
+			"iconPath": "/static/write.png",
+			"selectedIconPath": "/static/selected-write.png",
+			"text": "发布"
+		},{
+			"pagePath": "pages/Buy/Buy",
+			"iconPath": "/static/buy.png",
+			"selectedIconPath": "/static/selected-buy.png",
+			"text": "求购"
+		},{
+			"pagePath": "pages/Mine/Mine",
+			"iconPath": "/static/mine.png",
+			"selectedIconPath": "/static/selected-mine.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {}
+}
