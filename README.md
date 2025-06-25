@@ -1,4 +1,4 @@
-# Revalue 全栈项目
+# Revalue 二手闲置平台
 ## 项目概述
 Revalue 是一个基于uniapp（前端）和Spring Boot（后端）的二手交易平台，支持用户注册登录、商品发布/浏览、个人中心管理等核心功能，适配多端（微信小程序/Android/iOS）。
 
